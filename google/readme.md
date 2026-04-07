@@ -31,16 +31,16 @@ https://console.cloud.google.com/vertex-ai/dashboard
 Create a folder where your config files will be stored, I put mine in C:\Coding\litellm
 
 Open CMD:
-```
+
 a. Install Python 3.9> 3.14< if you don't have it already
-    winget install Python.Python.3.12
+```winget install Python.Python.3.12```
 
 b. Install NodeJS if you don't have it already
-    winget install OpenJS.NodeJS
+```winget install OpenJS.NodeJS```
 
 c. Install Google Cloud SDK
-    winget install Google.CloudSDK
-```
+```winget install Google.CloudSDK```
+
 *Close CMD, reopen*
 
 setup openclaude + litellm.
