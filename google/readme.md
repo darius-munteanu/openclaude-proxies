@@ -41,10 +41,14 @@ b. Install NodeJS if you don't have it already
 c. Install Google Cloud SDK
 ```winget install Google.CloudSDK```
 
+d. Install rust
+```https://rust-lang.org/tools/install/```
+
 *Close CMD, reopen*
 
-setup openclaude + litellm.
-`You can do this in a venv if you like, otherwise just install globally`
+***setup openclaude + litellm.***
+
+You can do this in a venv if you like, otherwise just install globally
 ```
 pip install "litellm[proxy,google]
 npm install -g @gitlawb/openclaude
