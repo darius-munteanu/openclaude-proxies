@@ -1,5 +1,5 @@
 collection of tools for openclaude to use frontier models for free (I suppose you could probs use this for smth like opencode too)
-
+https://github.com/Gitlawb/openclaude
 
 
 \-Google Vertex $300 Credit
