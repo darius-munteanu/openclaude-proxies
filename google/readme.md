@@ -19,18 +19,19 @@ You'll be asked to provide a credit card but its only for verfiication.
     a. Create  a project, name it anything. note down the project id.
     Should look something like this: project-xxxxxxxx-xxxx-xxxx-xxx
 
-2. Setup vertex api
+***2. Setup vertex api***
 
 Enable all recommended api's under vertex AI
 Top left menu, products, vertex AI
 https://console.cloud.google.com/vertex-ai/dashboard
 
 
-3. Install dependencies
+***3. Install dependencies***
 
 Create a folder where your config files will be stored, I put mine in C:\Coding\litellm
 
 Open CMD:
+```
 a. Install Python 3.9> 3.14< if you don't have it already
     `winget install Python.Python.3.12`
 
@@ -39,18 +40,19 @@ b. Install NodeJS if you don't have it already
 
 c. Install Google Cloud SDK
     `winget install Google.CloudSDK`
-
+```
 *Close CMD, reopen*
 
 setup openclaude + litellm.
 `You can do this in a venv if you like, otherwise just install globally`
-
+```
 pip install "litellm[proxy,google]
 npm install -g @gitlawb/openclaude
-
+```
 Link GCLoud to your computer
+```
 `gcloud auth application-default login`
-
+```
 Create config.yaml file in your working dir
 ```
 model_list:
@@ -70,13 +72,15 @@ general_settings:
 
 Usage:
 Run litellm in a command prompt, do not close. Change config path to your config yaml
-litellm --config C:\Coding\config.yaml
+```litellm --config C:\Coding\config.yaml```
 run openclaude
-openclaude
+```openclaude```
 
 setup provider
 /provider
 add provider (Custom/13)
+```
 URL: http://localhost:4000/v1
 Model: gemini-3.1
-api-key: sk-penis
+api-key: sk-bla
+```
