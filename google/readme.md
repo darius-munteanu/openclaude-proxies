@@ -33,13 +33,13 @@ Create a folder where your config files will be stored, I put mine in C:\Coding\
 Open CMD:
 ```
 a. Install Python 3.9> 3.14< if you don't have it already
-    `winget install Python.Python.3.12`
+    winget install Python.Python.3.12
 
 b. Install NodeJS if you don't have it already
-    `winget install OpenJS.NodeJS`
+    winget install OpenJS.NodeJS
 
 c. Install Google Cloud SDK
-    `winget install Google.CloudSDK`
+    winget install Google.CloudSDK
 ```
 *Close CMD, reopen*
 
@@ -51,7 +51,7 @@ npm install -g @gitlawb/openclaude
 ```
 Link GCLoud to your computer
 ```
-`gcloud auth application-default login`
+gcloud auth application-default login
 ```
 Create config.yaml file in your working dir
 ```
